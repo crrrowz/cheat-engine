@@ -1,0 +1,185 @@
+Hint: (lazbuild) Primary config path: "C:\Users\hassa\AppData\Local\lazarus"
+InitializeFppkg failed: Could not find a fpc executable in the PATH
+Hint: (lazarus) [TBuildManager.SetBuildTarget] Old=x86_64-win64--win32 New=x86_64-win64--win32 Changed: OS/CPU=True LCL=False
+Hint: (lazarus) [TBuildManager.SetBuildTarget] Old=x86_64-win64--win32 New=x86_64-win64--win32 Changed: OS/CPU=True LCL=False
+Hint: (lazarus) Project needs building: Compile was incomplete for Project
+Info: (lazarus) Execute Title="Compile Project, Mode: Release 64-Bit, Target: d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\bin\cheatengine-x86_64.exe"
+Info: (lazarus) Working Directory="d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\"
+Info: (lazarus) Executable="E:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe"
+Info: (lazarus) Param[0]="-Twin64"
+Info: (lazarus) Param[1]="-Px86_64"
+Info: (lazarus) Param[2]="-Rintel"
+Info: (lazarus) Param[3]="-MDelphi"
+Info: (lazarus) Param[4]="-Scghi"
+Info: (lazarus) Param[5]="-CX"
+Info: (lazarus) Param[6]="-O3"
+Info: (lazarus) Param[7]="-OoREGVAR"
+Info: (lazarus) Param[8]="-gw2"
+Info: (lazarus) Param[9]="-godwarfsets"
+Info: (lazarus) Param[10]="-gl"
+Info: (lazarus) Param[11]="-Xg"
+Info: (lazarus) Param[12]="-Xs"
+Info: (lazarus) Param[13]="-XX"
+Info: (lazarus) Param[14]="-WG"
+Info: (lazarus) Param[15]="-vewibq"
+Info: (lazarus) Param[16]="-vn-h-"
+Info: (lazarus) Param[17]="-vm6058,5066,5043,4105,4104,3177,3175,2005"
+Info: (lazarus) Param[18]="-Fid:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lib\x86_64-win64"
+Info: (lazarus) Param[19]="-FiE:\lazarus\ide\include\win64"
+Info: (lazarus) Param[20]="-FiE:\lazarus\images"
+Info: (lazarus) Param[21]="-FiE:\lazarus\ideintf\images"
+Info: (lazarus) Param[22]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\"
+Info: (lazarus) Param[23]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\VEHDebug"
+Info: (lazarus) Param[24]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\dbk32"
+Info: (lazarus) Param[25]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lua"
+Info: (lazarus) Param[26]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\jvdesign"
+Info: (lazarus) Param[27]="-FuE:\lazarus\designer"
+Info: (lazarus) Param[28]="-FuE:\lazarus\ide"
+Info: (lazarus) Param[29]="-Fud:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls"
+Info: (lazarus) Param[30]="-FuE:\lazarus\components\sqldb\lib\x86_64-win64\win32"
+Info: (lazarus) Param[31]="-FuE:\lazarus\components\virtualtreeview\lib\x86_64-win64-win32"
+Info: (lazarus) Param[32]="-FuE:\lazarus\components\ideintf\units\x86_64-win64\win32"
+Info: (lazarus) Param[33]="-FuE:\lazarus\components\synedit\units\x86_64-win64\win32"
+Info: (lazarus) Param[34]="-FuE:\lazarus\components\lclextensions\lib\x86_64-win64-win32"
+Info: (lazarus) Param[35]="-FuE:\lazarus\components\lazcontrols\lib\x86_64-win64\win32"
+Info: (lazarus) Param[36]="-FuE:\lazarus\lcl\units\x86_64-win64\win32"
+Info: (lazarus) Param[37]="-FuE:\lazarus\lcl\units\x86_64-win64"
+Info: (lazarus) Param[38]="-FuE:\lazarus\components\lazedit\lib\x86_64-win64"
+Info: (lazarus) Param[39]="-FuE:\lazarus\components\freetype\lib\x86_64-win64"
+Info: (lazarus) Param[40]="-FuE:\lazarus\components\debuggerintf\lib\x86_64-win64"
+Info: (lazarus) Param[41]="-FuE:\lazarus\components\codetools\units\x86_64-win64"
+Info: (lazarus) Param[42]="-FuE:\lazarus\components\buildintf\units\x86_64-win64"
+Info: (lazarus) Param[43]="-FuE:\lazarus\components\lazutils\lib\x86_64-win64"
+Info: (lazarus) Param[44]="-FuE:\lazarus\components\lazdebuggers\lazdebuggerintf\lib\x86_64-win64"
+Info: (lazarus) Param[45]="-FuE:\lazarus\packager\units\x86_64-win64"
+Info: (lazarus) Param[46]="-FUd:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lib\x86_64-win64\"
+Info: (lazarus) Param[47]="-FEd:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\bin\"
+Info: (lazarus) Param[48]="-od:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\bin\cheatengine-x86_64.exe"
+Info: (lazarus) Param[49]="-dLCL"
+Info: (lazarus) Param[50]="-dLCLwin32"
+Info: (lazarus) Param[51]="-WB00400000"
+Info: (lazarus) Param[52]="-dbenchmarkps"
+Info: (lazarus) Param[53]="-dcemain"
+Info: (lazarus) Param[54]="-dNDEBUG"
+Info: (lazarus) Param[55]="-dDBVMFORAMDISWORKING"
+Info: (lazarus) Param[56]="-dNESTEDSTRUCTURES"
+Info: (lazarus) Param[57]="-dTHREADNAMESUPPORT"
+Info: (lazarus) Param[58]="-donebytejumps"
+Info: (lazarus) Param[59]="-dNoODS"
+Info: (lazarus) Param[60]="cheatengine.lpr"
+Info: (lazarus) Param[61]="-B"
+Free Pascal Compiler version 3.2.2 [2025/11/08] for x86_64
+Copyright (c) 1993-2021 by Florian Klaempfl and others
+(1002) Target OS: Win64 for x64
+(3104) Compiling cheatengine.lpr
+(3104) Compiling first.pas
+(3104) Compiling betterdllsearchpath.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newradiobutton.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newcheckbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrolcolorset.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newbutton.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newlistview.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newedit.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newmainmenu.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newform.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newlistbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newprogressbar.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newmemo.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newcombobox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newgroupbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newspeedbutton.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newtreeview.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newheadercontrol.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newscrollbar.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newscrollbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newsynedit.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newpagecontrol.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newtabcontrol.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newstatusbar.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newchecklistbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newcheckgroup.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newcolorbox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newdirectoryedit.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newhintwindow.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newtogglebox.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\newvirtualstringtree.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\betterControls\bettercontrols.pas
+(3104) Compiling MainUnit2.pas
+(3104) Compiling formsettingsunit.pas
+(3104) Compiling CEFuncProc.pas
+(3104) Compiling Assemblerunit.pas
+(3104) Compiling ProcessHandlerUnit.pas
+(3104) Compiling NewKernelHandler.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\dbk32\DBK32functions.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\dbk32\multicpuexecution.pas
+(3104) Compiling globals.pas
+(3104) Compiling commontypedefs.pas
+(3104) Compiling ArcDriver.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\dbk32\vmxfunctions.pas
+(3104) Compiling CEFuncProc.pas
+(3104) Compiling Assemblerunit.pas
+(3104) Compiling ProcessHandlerUnit.pas
+(3104) Compiling NewKernelHandler.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\dbk32\debug.pas
+(3104) Compiling plugin.pas
+(3104) Compiling CEFuncProc.pas
+(3104) Compiling Assemblerunit.pas
+(3104) Compiling ProcessHandlerUnit.pas
+(3104) Compiling LuaHandler.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lua\lua.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lua\lualib.pas
+(3104) Compiling D:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\lua\lauxlib.pas
+(3104) Compiling SyncObjs2.pas
+(3104) Compiling networkInterfaceApi.pas
+(3104) Compiling networkInterface.pas
+(3104) Compiling networkConfig.pas
+(3104) Compiling networkInterfaceApi.pas
+(3104) Compiling networkInterface.pas
+(3104) Compiling CEFuncProc.pas
+(3104) Compiling Assemblerunit.pas
+(3104) Compiling vextypedef.pas
+(3104) Compiling CEFuncProc.pas
+(3104) Compiling lastdisassembledata.pas
+(3104) Compiling hypermode.pas
+(3104) Compiling disassembler.pas
+(3104) Compiling byteinterpreter.pas
+(3104) Compiling symbolhandler.pas
+(3104) Compiling symbollisthandler.pas
+(3104) Compiling cvconst.pas
+(3104) Compiling symbolhandlerstructs.pas
+d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\symbollisthandler.pas(19,21) Error: (3203) Illegal expression
+d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\symbollisthandler.pas(20,31) Error: (3203) Illegal expression
+d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\symbollisthandler.pas(178,1) Fatal: (10026) There were 2 errors compiling module, stopping
+Fatal: (1018) Compilation aborted
+Error: E:\lazarus\fpc\3.2.2\bin\x86_64-win64\ppcx64.exe returned an error exitcode
+Error: (lazarus) Compile Project, Mode: Release 64-Bit, Target: d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\bin\cheatengine-x86_64.exe: stopped with exit code 1
+Info: (lazarus) [TCompiler.Compile] end
+Error: (lazbuild) Failed compiling of project "d:\files\Contracted projects\IdeaProjects\cheat-engine\Cheat Engine\cheatengine.lpi"

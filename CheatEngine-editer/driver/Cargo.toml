@@ -1,0 +1,25 @@
+[package]
+name = "kmem_driver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[build-dependencies]
+# Used by build.rs to locate WDK paths
+winreg = "0.10"
+
+[profile.dev]
+panic = "abort"
+opt-level = 0
+
+[profile.release]
+panic = "abort"
+opt-level = "z"        # Optimize for size
+lto = true
+codegen-units = 1
+strip = true           # Strip symbols

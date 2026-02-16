@@ -1,0 +1,31 @@
+cargo build --release 2>&1
+winget install Rustlang.Rustup --accept-source-agreements --accept-package-agreements
+Invoke-WebRequest -Uri "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" -OutFile "$env:TEMP\rustup-init.exe"
+cargo build --release
+& "$env:TEMP\rustup-init.exe" -y
+cargo build --release
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release
+winget install Microsoft.VisualStudio.2022.BuildTools --override "--quiet --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended" --accept-source-agreements --accept-package-agreements
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release
+Get-ChildItem -Path "C:\Program Files*\Microsoft Visual Studio" -Recurse -Filter "vcvarsall.bat" -ErrorAction SilentlyContinue | Select-Object -First 3 -ExpandProperty FullName
+Get-ChildItem "C:\Program Files (x86)\Microsoft Visual Studio\2022" -ErrorAction SilentlyContinue | Select-Object Name; Get-ChildItem "C:\Program Files\Microsoft Visual Studio\2022" -ErrorAction SilentlyContinue | Select-Object Name
+Get-ChildItem "C:\Program Files\Microsoft Visual Studio\2022\BuildTools\VC" -Recurse -Filter "vcvarsall.bat" -ErrorAction SilentlyContinue | Select-Object FullName
+& "C:\Program Files\Microsoft Visual Studio\2022\BuildTools\vs_BuildTools.exe" --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --quiet --wait
+Get-ChildItem "C:\Program Files\Microsoft Visual Studio\2022\BuildTools" -ErrorAction SilentlyContinue | Select-Object Name
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; rustup target add x86_64-pc-windows-gnu; rustup default stable-x86_64-pc-windows-gnu
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release 2>&1
+Get-ChildItem "d:\files\Contracted projects\IdeaProjects\ArcRaiders-External-Cheat\rust_core\target\release\*arc_core*" | Select-Object Name, Length
+Get-ChildItem "d:\files\Contracted projects\IdeaProjects\ArcRaiders-External-Cheat\rust_core\target\release\arc_core.dll" | Select-Object Name, @{N='SizeKB';E={[math]::Round($_.Length/1KB)}} 
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release 2>&1
+py D:\files\Contracted projects\IdeaProjects\ArcRaiders-External-Cheat\setup.py
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release 2>&1
+cargo build --release 2>&1 | Out-Null
+$env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"; cargo build --release 2>&1
+rustup target add x86_64-pc-windows-msvc
+cd ..
+rustup target add x86_64-pc-windows-msvc
+cd driver
+cargo build --release --target x86_64-pc-windows-msvc
+sc query
+sc query KMem
+python cli.py clean

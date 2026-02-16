@@ -1,0 +1,30 @@
+[package]
+name = "arc_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+winapi = { version = "0.3.9", features = [
+    "handleapi",
+    "fileapi",
+    "ioapiset",
+    "winnt",
+    "errhandlingapi",
+    "processthreadsapi",
+    "tlhelp32",
+    "memoryapi",
+    "wow64apiset",
+    "minwindef",
+    "synchapi"
+] }
+
+# Optimize for speed but small size
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
