@@ -290,8 +290,8 @@ var
   noautorun: boolean;
 
 begin
-  Application.Title:='Cheat Engine 7.5';
- //'Cheat Engine 7.3';
+  Application.Title:='Arc Debugger';
+ //'Arc Debugger 7.3';
   {$ifdef darwin}
   macPortFixRegPath;
   {$endif}

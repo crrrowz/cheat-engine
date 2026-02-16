@@ -10,7 +10,7 @@
         <MainUnitHasScaledStatement Value="False"/>
         <CompatibilityMode Value="True"/>
       </Flags>
-      <Title Value="Cheat Engine launcher"/>
+      <Title Value="Arc Debugger launcher"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <XPManifest>

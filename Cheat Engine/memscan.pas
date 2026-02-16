@@ -31,7 +31,7 @@ uses
      SyncObjs, SyncObjs2 {$ifdef windows},windows7taskbar{$endif},SaveFirstScan, savedscanhandler, autoassembler,
      symbolhandler, CEFuncProc{$ifdef windows},shellapi{$endif}, CustomTypeHandler, lua,lualib,lauxlib,
      LuaHandler, {$ifdef windows}fileaccess,{$endif} groupscancommandparser, commonTypeDefs, LazUTF8,
-     forms, LazFileUtils, LCLProc, LCLVersion, AvgLvlTree, {$ifdef laztrunk}AVL_Tree{$else}laz_avl_Tree{$endif};
+     forms, LazFileUtils, LCLProc, LCLVersion, AvgLvlTree, AVL_Tree;
 {$define customtypeimplemented}
 {$endif}
 
@@ -6404,7 +6404,7 @@ begin
 end;
 
 procedure TScanController.CleanupIsPointerLookupTree(var lookupTree: TAvgLvlTree);
-var e: TAVLTreeNodeEnumerator;
+var e: TAvgLvlTreeNodeEnumerator;
   n: TAvgLvlTreeNode;
 begin
   if lookupTree<>nil then
@@ -6890,7 +6890,7 @@ var
   isWritable, isExecutable, isCopyOnWrite: boolean;
 
   e: TVQEValidCacheEntry;
-  n: TAVLTreeNode;
+  n: TAvgLvlTreeNode;
 begin
   result:=false;
 

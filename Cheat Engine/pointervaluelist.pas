@@ -22,7 +22,7 @@ uses
   LCLIntf, dialogs, SysUtils, classes, ComCtrls, CEFuncProc,
      NewKernelHandler, symbolhandler, symbolhandlerstructs, math,
      bigmemallochandler, maps, luahandler, lua, lauxlib, lualib, LuaClass,
-     LuaObject, zstream, commonTypeDefs, AvgLvlTree, {$ifdef laztrunk}AVL_Tree{$else}laz_avl_Tree{$endif};
+     LuaObject, zstream, commonTypeDefs, AvgLvlTree, AVL_Tree;
 
 const scandataversion=1;
 
@@ -995,7 +995,7 @@ function TReversePointerListHandler.isValidregion(address: ptruint): boolean;
 var
   mbi: _MEMORY_BASIC_INFORMATION;
   e: TVQEValidCacheEntry;
-  n: TAVLTreeNode;
+  n: TAvgLvlTreeNode;
 begin
   result:=false;
 

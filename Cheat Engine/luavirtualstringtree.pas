@@ -18,6 +18,9 @@ implementation
 uses LuaHandler, lauxlib, ceguicomponents, TypInfo, LuaByteTable, LuaCollection,
      LuaObject;
 
+type
+  TVirtualStringTree = TLazVirtualStringTree;
+
 
 
 function createVirtualStringTree(L: Plua_State): integer; cdecl;

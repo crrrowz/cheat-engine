@@ -102,7 +102,7 @@ begin
   else
   begin
     s:=exename;
-    MessageBoxW(0, pwidechar(exename+' could not be found. Please disable/uninstall your anti virus and reinstall Cheat Engine to fix this'),'Cheat Engine launch error',MB_OK or MB_ICONERROR);
+    MessageBoxW(0, pwidechar(exename+' could not be found. Please disable/uninstall your anti virus and reinstall Cheat Engine to fix this'),'Arc Debugger launch error',MB_OK or MB_ICONERROR);
   end;
 
 

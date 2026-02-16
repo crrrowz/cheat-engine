@@ -14941,7 +14941,7 @@ function lua_extractfilenamewithoutext(L: Plua_State): integer; cdecl;
 begin
   if lua_gettop(L)>=1 then
   begin
-    lua_pushstring(L, ExtractFileNameWithoutExt(Lua_ToString(L,1)));
+    lua_pushstring(L, ChangeFileExt(ExtractFileName(Lua_ToString(L,1)), ''));
     exit(1);
   end
   else

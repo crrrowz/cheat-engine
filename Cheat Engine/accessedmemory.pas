@@ -7,7 +7,7 @@ interface
 uses
   {$ifdef windows}windows, {$endif}Classes, SysUtils, FileUtil, laz.VirtualTrees, Forms, Controls, Graphics,
   Dialogs, StdCtrls, ExtCtrls, Menus, ComCtrls, genericHotkey, DBK32functions,
-  commonTypeDefs, newkernelhandler, betterControls,AvgLvlTree, {$ifdef laztrunk}AVL_Tree{$else}laz_avl_Tree{$endif};
+  commonTypeDefs, newkernelhandler, betterControls,AvgLvlTree, AVL_Tree;
 
 resourcestring
   rsAMError = 'Error';
@@ -144,7 +144,7 @@ var
   plist: PPListDescriptor;
   found: boolean;
   search: TPListDescriptor;
-  n: TAVLTreeNode;
+  n: TAvgLvlTreeNode;
 begin
   {$ifdef windows}
   if watchinfo=nil then

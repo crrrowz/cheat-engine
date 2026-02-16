@@ -3399,7 +3399,7 @@ begin
   ReadProcessMemory(processhandle, pointer(a), @originalbytes[0], codesize, br);
 
 
-  // same as menu option "Cheat Engine framework code", make sure we
+  // same as menu option "Arc Debugger framework code", make sure we
   // have enable and disable
   getenableanddisablepos(script,enablepos,disablepos);
 
@@ -3726,7 +3726,7 @@ begin
   setlength(originalbytes, codesize);
   ReadProcessMemory(processhandle, pointer(a), @originalbytes[0], codesize, br);
 
-  // same as menu option "Cheat Engine framework code", make sure we
+  // same as menu option "Arc Debugger framework code", make sure we
   // have enable and disable
   getenableanddisablepos(script,enablepos,disablepos);
 
